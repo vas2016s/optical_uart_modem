@@ -1647,7 +1647,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c617335c-bbb9-4ba2-bf32-96285610c756)
     (property "Reference" "R28" (id 0) (at 113.03 114.3 90))
-    (property "Value" "R_Small" (id 1) (at 113.03 116.84 90))
+    (property "Value" "50R" (id 1) (at 113.03 116.84 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 113.03 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1928,10 +1928,10 @@
       (reference "C16") (unit 1) (value "330u") (footprint "Capacitor_SMD:CP_Elec_8x10.5")
     )
     (path "/e28785e6-23a6-4d97-8af1-f33c992f70f8/b3b988cb-e491-4498-a4b7-d91f969f3ea5"
-      (reference "C17") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C17") (unit 1) (value "0.47n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/e28785e6-23a6-4d97-8af1-f33c992f70f8/badacdf9-a514-4360-9eb6-46665e85c9e6"
-      (reference "C18") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C18") (unit 1) (value "0.01u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/705194a5-b853-4555-b7f4-2e5e82a735a9"
       (reference "D1") (unit 1) (value "LED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -2030,13 +2030,13 @@
       (reference "R25") (unit 1) (value "4K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e28785e6-23a6-4d97-8af1-f33c992f70f8/c45d9a51-8025-41b1-82d8-34e2a8fd0ca0"
-      (reference "R26") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R26") (unit 1) (value "560K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e28785e6-23a6-4d97-8af1-f33c992f70f8/cfca1c89-e531-48ad-aa93-3666292446e4"
-      (reference "R27") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R27") (unit 1) (value "39K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c617335c-bbb9-4ba2-bf32-96285610c756"
-      (reference "R28") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R28") (unit 1) (value "50R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/922bae2e-bcad-4760-a906-21dea416b5dc/93afe5b9-ac56-4aea-8798-699080b634cf"
       (reference "RV1") (unit 1) (value "47k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical")
